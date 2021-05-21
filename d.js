@@ -1,4 +1,11 @@
+/*
+webpack.config.js 的配置文件
+  作用：指示webpack干那些活（当你运行webpack指令时，会加载里边的配置）
 
+  所有构建工具都是基于node.js平台的~模块化默认采用commonjs。
+*/
+
+//resolve用来拼接绝对路径的方法
 const { resolve } = require("path");
 
 
